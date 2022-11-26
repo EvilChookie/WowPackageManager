@@ -4,7 +4,7 @@ import { checkConfigFileExists, getConfig, listConfig, printConfig, setConfig, s
 const program = new Command();
 
 const doesTokenExist = await checkConfigFileExists();
-const curseToken = await getConfig('curseforgeAPIToken');
+const curseToken = await getConfig('CurseForgeAPIToken');
 
 if (!doesTokenExist || !curseToken) {
     // We need a token to be able to do anything - so let's set that on our first run.

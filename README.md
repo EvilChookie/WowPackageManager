@@ -30,7 +30,7 @@ Once your API key has been saved, you can then run other commands by appending t
 deno run -A src/main/index.ts config list
 
 // Get the value of a specific key:
-deno run -A src/main/index.ts config get curseforgeAPIToken
+deno run -A src/main/index.ts config get CurseForgeAPIToken
 ```
 
 ## Building from Source

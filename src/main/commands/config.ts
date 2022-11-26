@@ -15,7 +15,7 @@ async function setToken() {
 
     // Set the token:
     try {
-        await setConfig('curseforgeAPIToken', token);
+        await setConfig('CurseForgeAPIToken', token);
         log.success(`Your CurseForge API Token has been saved successfully. Run WowPackageManager again to see what the program can do!`);
     } catch (_err) {
         log.error(`The token couldn't be saved to the configuration file. See any previous messages for clues as to what went wrong.`);
