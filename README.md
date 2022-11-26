@@ -13,20 +13,21 @@ Run `WowPackageManager` from your terminal to see all commands.
 2. Clone the repository
 3. In the repository directory, run:
 
-```console
-:~$ deno run -A src/main/index.ts
+```javascript
+// Show all possible top level commands:
+deno run -A src/main/index.ts
 ```
 
 You'll be prompted for your CurseForge API Key on the first run. That key will be saved to your home directory.
 
 Once your API key has been saved, you can then run other commands by appending them to the `deno run -A  ...` command. For example:
 
-```console
+```javascript
 // List configuration:
-:~$ deno run -A src/main/index.ts config list
+deno run -A src/main/index.ts config list
 
 // Get the value of a specific key:
-:~$ deno run -A src/main/index.ts config get curseforgeAPIToken
+deno run -A src/main/index.ts config get curseforgeAPIToken
 ```
 
 ## Building from Source
