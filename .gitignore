@@ -1,0 +1,2 @@
+# Ignore any HTTP Rest Client files:
+*.http
